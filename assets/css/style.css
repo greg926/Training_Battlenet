@@ -141,3 +141,240 @@ body {
 .btn-rech3:hover{
     background-color: #434950;
 }
+
+/* BANNER */
+.banner{
+    height: 300px;
+    margin-top: 2%;
+    background-color: #23252b;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+/* BANNER BUTTON */
+
+.menu-low-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.low-banner-btn-seta {
+    background-color: #15171e;
+    border: none;
+    color: #626264;
+    padding-right: 7px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.low-banner-btn-seta:hover {
+    color: #0093fe;
+    border: none;
+    width: 40px;
+    transition-duration: 0.5s;
+    margin-left: 0.5%;
+
+}
+.low-banner-btn {
+    width: 35px;
+    height:5px;
+    background-color: #626264;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    transition-duration: 0.5s;
+}
+.low-banner-btn:hover {
+    background-color: #0093fe;
+    border: none;
+    width: 40px;
+    height:7px;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
+
+/* ICONES */
+.game-icone{
+    margin-top: 2%;
+    background-color: #23252b;
+    border-radius: 5px;
+    text-align: center;
+    position: static;
+    margin-bottom: 4%;
+}
+.bouton-hud {
+    width: 50px;
+    height: 50px;
+}
+.bouton-icone{
+    border-radius: 50%;
+}
+.bouton-cercle {
+    border-radius: 50%;
+    border: none;
+    background-color: #23252b;
+    transition-duration: 0.5s;
+}
+.bouton-cercle:hover{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.recommended, .featured, .most-gifted, .trending-now {
+    color: #fff;
+    margin-left: 1.5%;
+    cursor: pointer;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-card {
+    max-width: 305.500px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-bottom: 5%;
+}
+.text-card {
+    padding: 5%;
+    padding-left: 7%;
+}
+.h3card-sup {
+    color: #cdcdcf;
+    font-size: 19px;
+    padding-bottom: 3%;
+}
+.p-card1 {
+    color: #ffb400;
+    font-size: 14px;
+    padding-bottom: 3%;
+}
+.p-card2{
+    color: #c2c2c4; 
+    font-size: 12px;
+}
+.price {
+    color: #cdcdcf; 
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+}
+
+.btn-card {
+    background-color: #23252b;
+    border: none;
+    border-radius: 5px;
+    max-width: 305.500px;
+    width: 305.500px;
+    height: 400px;
+    max-height: 400px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin: 0.5%;
+}
+
+.btn-card:hover {
+    background-color: #434950;
+}
+
+.banner2{
+    height: 100%;
+    width: 100%;
+    margin-top: 2%;
+    background-color: #23252b;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.text-left-low {
+    color: #fff;
+    width: 50%;
+    padding: 2%;
+}
+
+.plow {
+    font-size: 55px;
+    margin: 2%;
+    margin-bottom: 5%;
+    margin-left: 0;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.plow1 {
+    font-size: 23px;
+    margin-left: 0;
+    font-weight: bold;
+}
+.plow2 {
+    padding-top: 2%;
+}
+
+.low-btn {
+    background-color: #0074e0;
+    padding: 3.5%;
+    border-radius: 5px;
+    width: 300px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    border: none;
+    margin-top: 7%;
+}
+.low-btn:hover {
+    background-color: #054b7e;
+}
+.link-download{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.low-btn2 {
+    background-color: #586077;
+    padding: 3%;
+    border-radius: 5px;
+    width: 180px;
+    margin-left: 3%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    border: none;
+
+}
+.low-btn2:hover {
+    background-color: #434950;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #b3b3b5;
+    padding-top: 10%;
+}
+.language {
+    cursor: pointer;
+}
+.battlenetfooter {
+    width: 28%;
+    margin: 3%;
+    cursor: pointer;
+}
+
+.copy {
+    margin: 1%;
+}
+
+.classification {
+    margin: 2%;
+}
