@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #15171E;
+}
+
+.tudo{
+    padding: 2%;
+}
+
+/* DEBUT DU HEADER */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bouton-header {
+    display: flex;
+}
+
+.btn-link{
+    padding: 10px;
+}
+.btn-link-txt {
+    width: 10%;
+}
+.btn-link {
+    padding-left: 30px;
+    color: #0093fe;
+}
+.btn-link-txt, .btn-link-txt3 {
+    color: #b3b3b5;
+}
+/* .btn-link-txt3 {
+    color: #60768d;
+} */
